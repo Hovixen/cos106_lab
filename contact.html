@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Amara Chukwu</title>
+<meta name="description" content="Get in touch with Amara Chukwu via this validated contact form.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="20" cy="20" r="17" stroke="#C68A3E" stroke-width="1.6"/>
+        <path d="M20 6L27 30L20 26L13 30L20 6Z" stroke="#C68A3E" stroke-width="1.4" stroke-linejoin="round"/>
+        <circle cx="20" cy="20" r="2" fill="#C68A3E"/>
+      </svg>
+      Amara Chukwu
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Planner</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="blueprint" style="padding: 3.5rem 0 3rem;">
+    <div class="wrap">
+      <p class="eyebrow">Sheet A-05</p>
+      <h1>Get in Touch</h1>
+      <p class="lede">Studio collaborations, questions about a project, or just to say hi — the form below reaches me directly.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid-2">
+      <div>
+        <form class="stack" id="contact-form" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" autocomplete="name">
+            <span class="error-msg" id="cf-name-error"></span>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email address</label>
+            <input type="email" id="cf-email" name="email" autocomplete="email">
+            <span class="error-msg" id="cf-email-error"></span>
+          </div>
+          <div class="field">
+            <label for="cf-phone">Phone number</label>
+            <input type="tel" id="cf-phone" name="phone" placeholder="Digits only, e.g. 08012345678" autocomplete="tel">
+            <span class="error-msg" id="cf-phone-error"></span>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5"></textarea>
+            <span class="error-msg" id="cf-message-error"></span>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary" style="background: var(--brass); color: var(--navy-deep);">Send message</button>
+          </div>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+      <div>
+        <p class="eyebrow">Other ways to reach me</p>
+        <h2>Studio details</h2>
+        <ul class="plain-list">
+          <li>Email: amara.chukwu@example.edu</li>
+          <li>Studio hours: Mon–Fri, 10am–5pm WAT</li>
+          <li>Location: Faculty of Environmental Sciences, Lagos, Nigeria</li>
+        </ul>
+        <p class="eyebrow" style="margin-top:2rem;">Elsewhere</p>
+        <ul class="plain-list">
+          <li><a href="https://example.com/amara-portfolio-pdf" target="_blank" rel="noopener noreferrer">Downloadable portfolio (PDF)</a></li>
+          <li><a href="https://example.com/amara-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://example.com/amara-instagram" target="_blank" rel="noopener noreferrer">Instagram — sketches</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="title-block">
+  <div class="wrap">
+    <div>
+      <div class="tb-grid">
+        <div><span>Drawn by</span>Amara Chukwu</div>
+        <div><span>Programme</span>B.Sc. Architecture</div>
+        <div><span>Scale</span>Not to scale</div>
+        <div><span>Sheet</span>A-05 · Contact</div>
+      </div>
+    </div>
+    <div class="tb-sheet">A-05</div>
+  </div>
+</footer>
+<p class="site-footer-bottom">Student portfolio demo project · <a href="contact.html">Contact</a></p>
+
+<script src="js/nav.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
